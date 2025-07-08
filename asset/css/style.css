@@ -418,6 +418,19 @@ h1{
     top: 10rem;
 }
 
+.tabel tr td, .tabel tr th {
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    border-spacing: 0rem;
+    padding: 0.5rem;
+    min-width: 10rem;
+}
+
+.responsive-table {
+    overflow-x: auto;
+}
+
 /* untuk tablet dan fordable phone*/
 @media screen and (max-width: 1024px){
     .logo.about-logo {
