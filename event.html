@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Wijaya</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <img src="asset/img/hamburger.png">
+        </div>
+
+        <div class="logo"></div>
+        
+        <div class="menu" id="main-menu">
+            <a href="home.html" class="first-menu header-menu">Home</a>
+            <a href="product page.html" class="header-menu">Product Page</a>
+            <a href="detail.html" class="header-menu">Product Detail</a>
+            <a href="event.html" class="active header-menu">Event</a>
+            <a href="about_me.html" class="header-menu">About Us</a>
+        </div>
+
+        <div class="clear"></div>
+    </header>
+
+    <div class="event">
+        <h1>Event</h1>
+        <form id="event_form">
+            <div class="event-table">
+                    <div class="event-title-form">
+                        Email Address
+                    </div>
+                    <div class="event-separator">:</div>
+                    <div class="event-form-field">
+                        <input type="email" class="event-input" name="email_address" id="email_address">
+                    </div>
+              
+                    <div class="event-title-form">
+                        Full Name
+                    </div>
+                    <div class="event-separator">:</div>
+                    <div class="event-form-field">
+                        <input type="text" class="event-input" name="full_name" id="full-name">
+                    </div>
+               
+                    <div class="event-title-form">
+                        Birth Date
+                    </div>
+                   <div class="event-separator">:</div>
+                    <div class="event-form-field">
+                        <div class="event-input">
+                            <input type="date" class="special-event-input" name="birth_date" id="birth_date">
+                        </div>
+                    </div>
+                
+                    <div class="event-title-form">
+                        Gender
+                    </div>
+                   <div class="event-separator">:</div>
+                    <div class="event-form-field">
+                        <div class="event-input">
+                            <select class="special-event-input" name="gender" id="gender">
+                                <option value="">-- Choose --</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            <img src="asset/img/male-and-female.png" class="gender-icon">
+                        </div>
+                    </div>
+               
+                    <div class="event-title-form">
+                        Term and Condition
+                    </div>
+                    <div class="event-separator">:</div>
+                    <div class="event-form-field">
+                        <input type="hidden" name="tos" id="tos">
+                        <div class="event-input">
+                            <div class="event-input-half" id="agree_area" data-value="agree">
+                                <div class="left-side">
+                                    <img src="asset/img/check-128.webp" >
+                                    Agree
+                                </div>
+                            </div>
+                            <div class="event-input-half" id="disagree_area" data-value="disagree">
+                                <div class="right-side">
+                                    <img src="asset/img/Close-128.webp">
+                                    Disagree
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <button type="submit" class="submit-button">
+                <img src="asset/img/new-document.png">
+                Submit
+            </button>
+            <div class="clear"></div>
+        </form>
+    </div>
+    
+    <div class="footer">
+         <div class="footer-kiri">
+             <p>Christian Wijaya is a luxury fashion brand <br> celebrated for its timeless elegance and <br> modern sophistication. Known for blending classic styles with contemporary innovation</p>
+         </div>
+ 
+         <div class="footer-kanan">
+             <a href="home.html">Home</a>
+             <a href="product page.html">Product Page</a>
+             <a href="detail.html">Product Detail</a>
+             <a href="event.html">Event</a>
+             <a href="about_me.html">About Us</a>
+         </div>
+ 
+         <div class="footer-bawah">
+             Copyright 2023 Christian Wijaya. All rights reserved.
+         </div>
+    </div>
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
