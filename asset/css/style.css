@@ -431,6 +431,44 @@ h1{
     overflow-x: auto;
 }
 
+.main-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20rem;
+    box-sizing: border-box;
+    border-right: solid;
+    border-right-width: thin;
+    border-right-color: black;
+    background: rgba(120, 120, 120, 0.3);
+}
+
+.sidebar-toggle img {
+    width: 3rem;
+}
+
+.sidebar-toggle {
+    width: 4rem;
+    height: 4rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 20rem;
+    background: black;
+}
+
+.sidebar {
+    margin-top: 6rem;
+}
+
+.header-sidebar {
+    display: block;
+    padding: 0.5rem;
+    color: #261d00;
+}
+
 /* untuk tablet dan fordable phone*/
 @media screen and (max-width: 1024px){
     .logo.about-logo {
