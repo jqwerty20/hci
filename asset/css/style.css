@@ -477,8 +477,29 @@ h1{
     left: 0;
     top: 0;
     /* Jika ingin efeknya hanya sedikit menutupi elemen di belakang */
-    background-color:  rgba(80, 80, 80, 0.4);
+    /* background-color:  rgba(80, 80, 80, 0.4); */
+
+    /* Jika ingin efeknya blur */
+    background-color: rgba(100, 100, 100, 0.5);
+    backdrop-filter: blur(5px);
+    
     z-index: 10 !important;
+}
+
+.mini-header {
+    position: fixed;
+    top: 0;
+    background: black;
+    color: white;
+    height: 4rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    font-size: 1.7rem;
+    width: 16rem;
+}
+
+.first-letter, .last-letter {
+    display: inline-block;
 }
 
 /* untuk tablet dan fordable phone*/
