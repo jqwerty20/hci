@@ -441,7 +441,8 @@ h1{
     border-right: solid;
     border-right-width: thin;
     border-right-color: black;
-    background: rgba(120, 120, 120, 0.3);
+    background: rgba(131, 78, 78, 0.3);
+    z-index: 9999 !important;
 }
 
 .sidebar-toggle img {
@@ -466,7 +467,18 @@ h1{
 .header-sidebar {
     display: block;
     padding: 0.5rem;
-    color: #261d00;
+    color: #261cff;
+}
+
+.blur-bg {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* Jika ingin efeknya hanya sedikit menutupi elemen di belakang */
+    background-color:  rgba(80, 80, 80, 0.4);
+    z-index: 10 !important;
 }
 
 /* untuk tablet dan fordable phone*/
